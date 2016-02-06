@@ -15,4 +15,4 @@ var express = require ('express');
 var app = express ();
 var PORT = 8090;
 
-app.use("/js", express.static('public')
+app.use("/js", express.static('public'));
